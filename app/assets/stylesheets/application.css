@@ -67,6 +67,9 @@ table {
   margin: 5px 0px;
 }
 
+table th {
+  padding: 4px;
+}
 table td {
 	padding: 4px;
 }
