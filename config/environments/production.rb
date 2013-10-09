@@ -62,4 +62,7 @@ RR01::Application.configure do
   config.active_support.deprecation = :notify
 
   config.eager_load = true
+  
+  config.serve_static_assets = true;
+  config.assets_compile = true;
 end
