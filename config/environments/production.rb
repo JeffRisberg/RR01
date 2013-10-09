@@ -63,6 +63,6 @@ RR01::Application.configure do
 
   config.eager_load = true
   
-  config.serve_static_assets = true;
-  config.assets_compile = true;
+  config.serve_static_assets = true
+  config.assets_compile = true
 end
