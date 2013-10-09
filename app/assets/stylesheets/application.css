@@ -87,7 +87,7 @@ table td {
   height:72px;
   margin:5px 0;
   padding:4px;
-  background:url("/assets/header-bg.png");
+  background:url("/images/header-bg.png");
 }
 
 #footer{
@@ -95,7 +95,7 @@ table td {
   height:14px;
   margin:5px 0;
   padding:4px;
-  background:url("/assets/footer-bg.png");
+  background:url("/images/footer-bg.png");
   text-align:left;
   font-family:'arial', 'sans-serif';
   font-size:14px;
