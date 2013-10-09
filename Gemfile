@@ -1,11 +1,13 @@
 source 'https://rubygems.org'
 
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.0'
 
-# Bundle edge Rails instead:
-# gem 'rails', :git => 'git://github.com/rails/rails.git'
+# Use postgresql as the database for Active Record
+gem 'pg'
 
-gem 'sqlite3'
+# Use 12factor auth for integration with Heroku
+gem 'rails_12factor', group: :production
 
 gem 'jquery-rails'
 
