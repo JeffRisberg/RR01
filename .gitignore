@@ -11,9 +11,19 @@
 /db/*.sqlite3
 
 # Ignore all logfiles and tempfiles.
-log/*.log
-tmp
-
-# swap files
+/log/*.log
+*.log
+/tmp
+doc/api
+doc/app
 *.swp
-.db
+*~
+.DS_Store
+
+.idea/workspace.xml
+.idea/tasks.xml
+
+Gemfile.lock
+
+
+
